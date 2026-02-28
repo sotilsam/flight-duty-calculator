@@ -85,9 +85,10 @@ export default function MainPage() {
     setAvgPassW(avgpassw);
 
     ///baggage weight ... reduced 30%
-    const baggweight = NumOfPass * avgBaggage;
-    const reduced = baggweight * 0.7;
+    const baggweight = Number(baggage) * avgBaggage;
+    const reduced = baggweight * 0.8;
     setAdjBagWeight(reduced);
+
 
     const total =
       Number(male) * avgMale +
