@@ -7,7 +7,7 @@ export default function Sidebar() {
 
   return (
     <div className="sidebar">
-      <img src={Logo} alt="Israir Logo" className="logo" />
+      <img src={Logo} alt="Logo" className="logo" />
 
       <div className="sidebar-links">
         {location.pathname === "/" ? (

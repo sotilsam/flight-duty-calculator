@@ -72,6 +72,16 @@ export default function MainPage() {
   // Calculation function
   const handleCalculate = () => {
 
+      const totalInput = Number(male) + Number(female) + Number(children) + Number(infant) + Number(baggage);
+      if (totalInput === 0) {
+        setAvgPassW(null);
+        setAdjBagWeight(null);
+        setTotalWeight(null);
+        return; 
+      }
+      
+      // ... מכאן הפונקציה שלך ממשיכה כרגיל עם החישובים ...
+
     ////number of passengers
     const NumOfPass = Number(male) + Number(female) + Number(children) + Number(infant);
 
