@@ -1,5 +1,5 @@
 // import ReturnButton from "../src/ReturnButton";
-import React, { useState } from "react";
+import { useState } from "react";
 
 
 export default function Explanations() {
